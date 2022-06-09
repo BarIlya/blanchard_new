@@ -469,13 +469,13 @@ header {
 }
 
 .hero__slide:nth-child(1) {
-  background: url(/img/hero_picture_1.jpg) bottom/cover no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/hero_picture_1.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(2) {
-  background: url(/img/hero_picture_2.jpg) bottom/cover no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/hero_picture_2.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(3) {
-  background: url(/img/hero_picture_3.jpg) bottom/cover no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/hero_picture_3.jpg) bottom/cover no-repeat;
 }
 
 /*------------------------------ section about ------------------------------*/
@@ -491,7 +491,7 @@ header {
 }
 /*------------------------------ section gallery ------------------------------*/
 .gallery {
-  background: url(/img/background_gallery_320.jpg) bottom/cover no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/background_gallery_320.jpg) bottom/cover no-repeat;
   padding-bottom: 25px;
 }
 .gallery__title {
@@ -558,7 +558,7 @@ header {
   background-color: transparent;
 }
 .choices__list.is-active {
-  background: url(/img/background_gallery_320.jpg) -17px -178px no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/background_gallery_320.jpg) -17px -178px no-repeat;
 }
 .choices[data-type*=select-one]::after {
   content: '';
@@ -707,22 +707,22 @@ header {
   /* object-fit: cover; */
 }
 /* .gallery__slide:nth-child(1) {
-  background: url(/img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(2) {
-  background: url(/img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(3) {
-  background: url(/img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(4) {
-  background: url(/img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(5) {
-  background: url(/img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(6) {
-  background: url(/img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
 } */
 .gallery__slide::before {
   content: '';
@@ -1276,7 +1276,7 @@ header {
   vertical-align: middle;
   width: 16px;
   height: 16px;
-  background: url('/img/tabs_lable.svg') no-repeat;
+  background: url(https://barilya.github.io/blanchard_new/img/tabs_lable.svg) no-repeat;
   margin: 0 1px 0 -1px;
 	transition: background-color .3s;
   cursor: pointer;
