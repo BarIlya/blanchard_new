@@ -36,7 +36,7 @@ tabsBtn.forEach(function(item) {
 
             // console.log('screenWidth:', window.screen.width);
             // console.log('screenWidth_2:', document.documentElement.clientWidth);
-            if (document.documentElement.clientWidth <= 500) {
+            if (document.documentElement.clientWidth < 1024) {
                 const elementPosition = scrollTarget.getBoundingClientRect().top;
 
                 window.scrollBy({
