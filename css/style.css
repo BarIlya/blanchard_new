@@ -125,8 +125,9 @@ a {
   /* border-bottom: 1px solid var(--color-main-light); */
   transition: color .3s ease-in-out, border-color .3s ease-in-out;
 }
-.catalog__tabs__link:focus,
-.catalog__tabs__link:hover {
+.catalog__tabs__link:focus
+/* ,.catalog__tabs__link:hover  */
+  {
   color: var(--color-main-dark);
   text-decoration: underline;
   /* border-bottom: 1px solid var(--color-main-dark); */
@@ -175,10 +176,10 @@ header {
   color: #FFFFFF;
   transition: color .3s ease-in-out, background-color .3s  ease-in-out;
 }
-.header__link:hover {
+/* .header__link:hover {
   color: var(--color-main-light);
   transition: color .3s  ease-in-out;
-}
+} */
 .header__link:focus {
   background-color: var(--color-main-dark);
   transition: background-color .3s  ease-in-out;
@@ -388,9 +389,9 @@ header {
 .ghost__header__enter__button {
   display: none;
 }
-.decoratedButton:hover, .header__enter__button:hover {
+/* .decoratedButton:hover, .header__enter__button:hover {
   background-color: var(--color-hover);
-}
+} */
 .decoratedButton:active, .header__enter__button:active {
   background-color: var(--color-main-dark);
   border-color: var(--color-main-light);
@@ -456,9 +457,9 @@ header {
   margin-right: max(1px, calc(378*var(--multiplier)));
   transition: border-color .3s, background-color .3s;
 }
-.hero__btn:hover {
+/* .hero__btn:hover {
   border-color: var(--color-main-light);
-}
+} */
 .hero__swiper {
   position: absolute;
   top: 0;
@@ -469,13 +470,13 @@ header {
 }
 
 .hero__slide:nth-child(1) {
-  background: url(../img/hero_picture_1.jpg) bottom/cover no-repeat;
+  background: url(/img/hero_picture_1.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(2) {
-  background: url(../img/hero_picture_2.jpg) bottom/cover no-repeat;
+  background: url(/img/hero_picture_2.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(3) {
-  background: url(../img/hero_picture_3.jpg) bottom/cover no-repeat;
+  background: url(/img/hero_picture_3.jpg) bottom/cover no-repeat;
 }
 
 /*------------------------------ section about ------------------------------*/
@@ -491,7 +492,7 @@ header {
 }
 /*------------------------------ section gallery ------------------------------*/
 .gallery {
-  background: url(../img/background_gallery_320.jpg) bottom/cover no-repeat;
+  background: url(/img/background_gallery_320.jpg) bottom/cover no-repeat;
   padding-bottom: 25px;
 }
 .gallery__title {
@@ -558,7 +559,7 @@ header {
   background-color: transparent;
 }
 .choices__list.is-active {
-  background: url(../img/background_gallery_320.jpg) -17px -178px no-repeat;
+  background: url(/img/background_gallery_320.jpg) -17px -178px no-repeat;
 }
 .choices[data-type*=select-one]::after {
   content: '';
@@ -642,31 +643,25 @@ header {
   opacity: 0;
   transition: opacity .3s;
 }
-
 .hidden-checkbox:checked + span {
   color: var(--color-main);
 }
-
 .hidden-checkbox:checked + .custom-checkbox:after {
   outline-color: var(--color-main);
 }
-
 .hidden-checkbox:checked + .custom-checkbox:before {
   opacity: 1;
 }
-
-.custom-checkbox:hover:after, .custom-checkbox:hover {
+/* .custom-checkbox:hover:after, .custom-checkbox:hover {
   color: var(--color-main);
   outline-color: var(--color-main);
-}
-
+} */
 .hidden-checkbox:focus + .custom-checkbox {
   color: var(--color-main);
 }
 .hidden-checkbox:focus + .custom-checkbox::after {
   outline-color: var(--color-main);
 }
-
 /* -------------- gallery swiper ------------------*/
 .gallery__swiper__container {
   position: relative;
@@ -707,22 +702,22 @@ header {
   /* object-fit: cover; */
 }
 /* .gallery__slide:nth-child(1) {
-  background: url(../img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(2) {
-  background: url(../img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(3) {
-  background: url(../img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(4) {
-  background: url(../img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(5) {
-  background: url(../img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(6) {
-  background: url(../img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
+  background: url(/img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
 } */
 .gallery__slide::before {
   content: '';
@@ -754,14 +749,14 @@ header {
   /* background-size: 100px; */
   background-position: center;
   background-clip: content-box;
-  /* background: url(../img/magnifier.svg) center/auto no-repeat, rgba(0, 0, 0, 0.5); */
+  /* background: url(/img/magnifier.svg) center/auto no-repeat, rgba(0, 0, 0, 0.5); */
   /* -webkit-transition: opacity .5s ease; */
   opacity: 0;
   transition: opacity .3s;
 }
-.gallery__slide:hover::after {
+/* .gallery__slide:hover::after {
   opacity: 1;
-}
+} */
 .gallery__navigation {
   display: block;
   position: relative;
@@ -778,13 +773,11 @@ header {
   border: 2px solid var(--color-dark-grey);
   z-index: 11;
 }
-
-.gallery__swiper__next:hover, .gallery__swiper__prev:hover,
+/* .gallery__swiper__next:hover, .gallery__swiper__prev:hover, */
 .gallery__swiper__next:focus, .gallery__swiper__prev:focus {
   background-color: var(--color-main);
   border: 2px solid  var(--color-main);
 }
-
 .gallery__swiper__next:active, .gallery__swiper__prev:active {
   border: 2px solid #000;
 }
@@ -896,9 +889,9 @@ header {
   border-bottom: 1px solid var(--color-grey);
   margin-bottom: 51px;
 }
-.catalog__accordion__item:hover {
+/* .catalog__accordion__item:hover {
   border-color: var(--color-main)
-}
+} */
 .catalog__accordion__item:active {
   border-color: var(--color-main-dark)
 }
@@ -915,7 +908,7 @@ header {
   border-bottom: 1px solid transparent;
   transition: border-color .8s;
 }
-.catalog__accordion__item:hover+.catalog__accordion__item,
+/* .catalog__accordion__item:hover+.catalog__accordion__item, */
 .catalog__accordion__item .accordion_active {
   border-top: 1px solid var(--color-main);
 }
@@ -935,9 +928,9 @@ header {
   transition: color .3s, background-color .3s;
   z-index: -2;
 }
-.catalog__accordion__title:hover~.catalog__accordion__heading {
+/* .catalog__accordion__title:hover~.catalog__accordion__heading {
   color: var(--color-main);
-}
+} */
 .catalog__accordion__title:active~.catalog__accordion__heading {
   color: var(--color-main-dark);
 }
@@ -995,23 +988,19 @@ header {
   transform: rotate(45deg);
   right: min(24px, calc(14.5px + 9*var(--multiplier)));
 }
-
 .catalog__arrow__right {
   transform: rotate(-45deg);
   right: min(16px, calc(9.5px + 6*var(--multiplier)));
 }
-
 .catalog__accordion__title.accordion_active .catalog__arrow__left {
   transform: rotate(-45deg);
   top: min(54px, calc(35px + 19*var(--multiplier)));
 }
-
 .catalog__accordion__title.accordion_active .catalog__arrow__right {
   transform: rotate(45deg);
   top: min(54px, calc(35px + 19*var(--multiplier)));
 }
-
-.catalog__accordion__title:hover .catalog__circle,
+/* .catalog__accordion__title:hover .catalog__circle, */
 .catalog__accordion__item:focus .catalog__circle {
   background-color: var(--color-main-light);
   border-color: var(--color-main-light);
@@ -1073,10 +1062,10 @@ header {
 .catalog__tab.active_tab {
   color: var(--color-main);
 }
-.catalog__tab:hover {
+/* .catalog__tab:hover {
   color: var(--color-main);
   border-bottom: var(--color-main);
-}
+} */
 .catalog__tab:focus,
 .catalog__tab:active {
   background-color: var(--color-main);
@@ -1201,9 +1190,9 @@ header {
 .events__swiper__link_1 {
   left: 27px;
 }
-.events__swiper__link:hover {
+/* .events__swiper__link:hover {
   color: var(--color-main-dark);
-}
+} */
 /* outline: 3px solid red; */
 .events__swiper__link:focus {
   color: #FFFFFF;
@@ -1276,23 +1265,24 @@ header {
   vertical-align: middle;
   width: 16px;
   height: 16px;
-  background: url(../img/tabs_lable.svg) no-repeat;
+  background: url('/img/tabs_lable.svg') no-repeat;
   margin: 0 1px 0 -1px;
 	transition: background-color .3s;
   cursor: pointer;
 }
-.projects__marker:hover, .projects__marker:focus {
+/* .projects__marker:hover,  */
+.projects__marker:focus {
 	background-color: var(--color-main-light)
 }
 .projects__marker:active {
-	background: url('../img/tabs_lable_active.svg') no-repeat;
+	background: url('/img/tabs_lable_active.svg') no-repeat;
 }
-.projects__marker:hover .projects__popup {
+/* .projects__marker:hover .projects__popup {
 	opacity: 1;
 }
 .projects__link:hover {
 	color: var(--color-main);
-}
+} */
 /* --------------- tippy content ------------------ */
 .tippy-content {
   background-color: var(--color-main);
@@ -1322,21 +1312,18 @@ header {
   display: flex;
   justify-content: center;
 }
-
 .partners__slide img {
   filter: grayscale(1);
   opacity: 0.5;
 	transition: filter .4s, opacity .3s;
 }
-
-.partners__slide:hover img,
+/* .partners__slide:hover img, */
 .partners__slide:focus img,
 .partners__slide:active img {
   filter: grayscale(0);
   opacity: 1;
   transition: filter .4s, opacity .3s;
 }
-
 .partners__swiper__next, .partners__swiper__prev {
   position: absolute;
   top: 26%;
@@ -1353,21 +1340,17 @@ header {
   color: #000;
   margin: 0;
 }
-
-.partners__swiper__next:hover, .partners__swiper__prev:hover,
+/* .partners__swiper__next:hover, .partners__swiper__prev:hover, */
 .partners__swiper__next:focus, .partners__swiper__prev:focus {
   background-color: var(--color-main-light);
   border: 2px solid  var(--color-main-light);
 }
-
 .partners__swiper__next:active, .partners__swiper__prev:active {
   border: 2px solid var(--color-main-dark);
 }
-
 .partners__swiper__next {
   right: -1px;
 }
-
 .partners__swiper__prev {
   left: -1px;
 }
@@ -1467,7 +1450,8 @@ header {
 	border-radius: 100px;
   transition: background-color .4s;
 }
-.contacts__input:hover, .contacts__input:focus {
+/* .contacts__input:hover,  */
+.contacts__input:focus {
   background-color: #EAEAEA;
 }
 .js-validate-error-field {
@@ -1481,7 +1465,6 @@ header {
 .contacts__phone {
   top: calc(16px + 11*var(--multiplier));
 }
-
 .contacts__button {
   width: min(323px, calc(128px + 195*var(--multiplier)));
   height: min(50px, calc(40px + 10*var(--multiplier)));
@@ -1493,11 +1476,10 @@ header {
 .contacts__button__768 {
   display: none;
 }
-
-.contacts__button:hover {
+/* .contacts__button:hover {
   background-color: var(--color-main);
   color: #FFFFFF;
-}
+} */
 .contacts__button:active {
   background-color: var(--color-main-dark);
   border-color: var(--color-main-light);
@@ -1505,7 +1487,6 @@ header {
 .contacts__button:focus {
   border: 5px double;
 }
-
 .js-validate-error-label {
 	font-size: 11px;
   font-weight: 600;
@@ -1534,9 +1515,9 @@ header {
   width:  max(40px, calc(50px - 10*var(--multiplier)));
   transition: opacity .4s;
 }
-.messenger-icon:hover {
+/* .messenger-icon:hover {
   opacity: 0.5;
-}
+} */
 .messenger-icon:active {
   border-radius: 50%;
   border: 1px solid #9643A4;
@@ -1544,7 +1525,7 @@ header {
 }
 .contacts__whatsapp__icon {
   box-sizing: border-box;
-  background: url(../img/whatsapp_icon.svg) no-repeat;
+  background: url(/img/whatsapp_icon.svg) no-repeat;
   background-size: contain;
   height: max(39px, calc(49px - 10*var(--multiplier)));
   width: max(39px, calc(49px - 10*var(--multiplier)));
@@ -1555,7 +1536,7 @@ header {
   transition: opacity .4s;
 }
 .contacts__telegram__icon {
-  background: url(../img/telegram_icon.svg) no-repeat;
+  background: url(/img/telegram_icon.svg) no-repeat;
   background-size: contain;
 }
 
@@ -1586,7 +1567,8 @@ header {
   fill: var(--color-grey);
   transition: fill .4s;
 }
-.social-icon:hover,.social-icon:focus {
+/* .social-icon:hover, */
+.social-icon:focus {
   fill: var(--color-light-grey);  
 }
 .social-icon:active {
@@ -1602,7 +1584,6 @@ header {
   width: 50px;
   height: 50px;
 }
-
 /* --------------- footer logo ------------------ */
 .footer__logo img {
   position: absolute;
@@ -1649,13 +1630,13 @@ header {
   }
   /* ------------------------------ Hero ------------------------------------ */
   .hero__slide:nth-child(1) {
-    background: url(../img/hero_picture_1_768.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_1_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(../img/hero_picture_2_768.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_2_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(../img/hero_picture_3_768.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_3_768.jpg) bottom/cover no-repeat;
   }
   .hero__container {
     flex-wrap: unset;
@@ -1674,14 +1655,14 @@ header {
   }
 /*------------------------------ section gallery ------------------------------*/
   .gallery {
-    background: url(../img/background_gallery_768.jpg) bottom/cover no-repeat;
+    background: url(/img/background_gallery_768.jpg) bottom/cover no-repeat;
     padding-bottom: 79px;
   }
   .gallery__checkbox__container {
     margin-bottom: 39px;
   }
   .choices__list.is-active {
-    background: url(../img/background_gallery_768.jpg) -52px -243px no-repeat;
+    background: url(/img/background_gallery_768.jpg) -52px -243px no-repeat;
   }
   /* .gallery__checkbox__container {
     margin-bottom: 101px;
@@ -1695,22 +1676,22 @@ header {
   }
   
   /* .gallery__slide:nth-child(1) {
-    background: url(../img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(../img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(../img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(../img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(../img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(../img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
   } */
   .gallery__navigation {
     margin-top: 0;
@@ -1941,13 +1922,13 @@ header {
   }
   /*------------------------------ section hero ------------------------------ */
   .hero__slide:nth-child(1) {
-    background: url(../img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(../img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(../img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
   }
   .hero {
     /* height: min(700px, calc(668px + 32*var(--multiplier_1700))); */
@@ -1961,7 +1942,7 @@ header {
   .gallery {
     box-sizing: border-box;
     height: 100%;
-    background: url(../img/background_gallery_1024.jpg) bottom/cover no-repeat;
+    background: url(/img/background_gallery_1024.jpg) bottom/cover no-repeat;
     margin-bottom: 0;
   }
   .choices__list.is-active {
@@ -2035,22 +2016,22 @@ header {
     margin-bottom: 11px;
   }
   /* .gallery__slide:nth-child(1) {
-    background: url(../img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(../img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(../img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(../img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(../img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(../img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
+    background: url(/img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
   } */
   /* .gallery__swiper__next, .gallery__swiper__prev {
     top: 11%;
@@ -2326,13 +2307,13 @@ header {
     background-color: var(--color-main-dark);
     border: unset;
   }
-  .header__enter__button:hover {
+  /* .header__enter__button:hover {
     background-color: unset;
     color: var(--color-hover);
   }
   .header__enter__button:hover svg {
     fill: var(--color-hover);
-  }
+  } */
   .header__enter__button:active {
     border: unset;
     background-color: unset;
@@ -2349,13 +2330,13 @@ header {
   }
   /* ----------------------------- hero section ----------------------------- */
   .hero__slide:nth-child(1) {
-    background: url(../img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(../img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(../img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
+    background: url(/img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
   }
   /*------------------------------ second heder ------------------------------ */
   .header__second {
@@ -2421,10 +2402,10 @@ header {
   }
   /* .dropdownBlock {
   }  */
-  .dropdownBlock:hover {
+  /* .dropdownBlock:hover {
     height: 300px;
     padding: 40px;
-  } 
+  }  */
   .header__second__link:focus+.dropdownBlock,
   .header__second__link:focus+.dropdownBox>.dropdownBlock,
   .header__second__item:focus .dropdownBlock
@@ -2445,9 +2426,9 @@ header {
     overflow: hidden auto;
     transition: height .5s;
   }
-  .dropdownBlock:hover>.dropdownMenu {
+  /* .dropdownBlock:hover>.dropdownMenu {
     height: 220px;
-  } 
+  }  */
   .header__second__link:focus+.dropdownBlock .dropdownMenu,
   .header__second__link:focus+.dropdownBox>.dropdownBlock .dropdownMenu,
   .header__second__item:focus .dropdownBlock .dropdownMenu
@@ -2515,163 +2496,163 @@ header {
     width: 109px;
   }
   .realismItem li:nth-child(1) {
-    background: url(../img/dropdwn_backgnd_1_1.png) center;
+    background: url(/img/dropdwn_backgnd_1_1.png) center;
   }
   .realismItem li:nth-child(1)::after {
     content: 'Тинторетто';
   }
   .realismItem li:nth-child(2) {
-    background: url(../img/dropdwn_backgnd_1_2.png) center;
+    background: url(/img/dropdwn_backgnd_1_2.png) center;
   }
   .realismItem li:nth-child(2)::after {
     content: 'Фридрих';
   }
   .realismItem li:nth-child(3) {
-    background: url(../img/dropdwn_backgnd_1_3.png) center;
+    background: url(/img/dropdwn_backgnd_1_3.png) center;
   }
   .realismItem li:nth-child(3)::after {
     content: 'Леонардо';
   }
   .realismItem li:nth-child(4) {
-    background: url(../img/dropdwn_backgnd_1_4.png) center;
+    background: url(/img/dropdwn_backgnd_1_4.png) center;
   }
   .realismItem li:nth-child(4)::after {
     content: 'Верроккьо';
   }
   .realismItem li:nth-child(5) {
-    background: url(../img/Repin.png) center;
+    background: url(/img/Repin.png) center;
   }
   .realismItem li:nth-child(5)::after {
     content: 'Илья Репин';
   }
   .realismItem li:nth-child(6) {
-    background: url(../img/Eakins.png) center;
+    background: url(/img/Eakins.png) center;
   }
   .realismItem li:nth-child(6)::after {
     content: 'Томас Икинс';
   }
   .realismItem li:nth-child(7) {
-    background: url(../img/Courbet.png) center;
+    background: url(/img/Courbet.png) center;
   }
   .realismItem li:nth-child(7)::after {
     content: 'Гюстав Курбе';
   }
   .realismItem li:nth-child(8) {
-    background: url(../img/Hopper.png) center;
+    background: url(/img/Hopper.png) center;
   }
   .realismItem li:nth-child(8)::after {
     content: 'Эдвард Хоппер';
   }
   .impressionismItem li:nth-child(1) {
-    background: url(../img/Sisley.png) center;
+    background: url(/img/Sisley.png) center;
   }
   .impressionismItem li:nth-child(1)::after {
     content: 'Альфред Сислей'
   }
   .impressionismItem li:nth-child(2) {
-    background: url(../img/Pissarro.png) center;
+    background: url(/img/Pissarro.png) center;
   }
   .impressionismItem li:nth-child(2)::after {
     content: 'Камиль Писсарро'
   }
   .impressionismItem li:nth-child(3) {
-    background: url(../img/Monet.png) center;
+    background: url(/img/Monet.png) center;
   }
   .impressionismItem li:nth-child(3)::after {
     content: 'Клод Моне'
   }
   .impressionismItem li:nth-child(4) {
-    background: url(../img/Korovin.png) center;
+    background: url(/img/Korovin.png) center;
   }
   .impressionismItem li:nth-child(4)::after {
     content: 'Константин Коровин'
   }
   .impressionismItem li:nth-child(5) {
-    background: url(../img/Renoir.png) center;
+    background: url(/img/Renoir.png) center;
   }
   .impressionismItem li:nth-child(5)::after {
     content: 'Пьер Огюст Ренуар'
   }
   .impressionismItem li:nth-child(6) {
-    background: url(../img/Degas.png) center;
+    background: url(/img/Degas.png) center;
   }
   .impressionismItem li:nth-child(6)::after {
     content: 'Эдгар Дега'
   }
   .impressionismItem li:nth-child(7) {
-    background: url(../img/Manet.png) center;
+    background: url(/img/Manet.png) center;
   }
   .impressionismItem li:nth-child(7)::after {
     content: 'Эдуард Мане'
   }
   .postimpressionismItem li:nth-child(1) {
-    background: url(../img/Van_Gogh.png) center;
+    background: url(/img/Van_Gogh.png) center;
   }
   .postimpressionismItem li:nth-child(1)::after {
     content: 'Ван Гог'
   }
   .postimpressionismItem li:nth-child(2) {
-    background: url(../img/Gauguin.png) center;
+    background: url(/img/Gauguin.png) center;
   }
   .postimpressionismItem li:nth-child(2)::after {
     content: 'Поль Гоген'
   }
   .postimpressionismItem li:nth-child(3) {
-    background: url(../img/Munch.png) center;
+    background: url(/img/Munch.png) center;
   }
   .postimpressionismItem li:nth-child(3)::after {
     content: 'Эдвард Мунк'
   }
   .postimpressionismItem li:nth-child(4) {
-    background: url(../img/Cezanne.png) center;
+    background: url(/img/Cezanne.png) center;
   }
   .postimpressionismItem li:nth-child(4)::after {
     content: 'Поль Сезанн'
   }
   .avantgardeItem li:nth-child(1) {
-    background: url(../img/Tatlin.png) center;
+    background: url(/img/Tatlin.png) center;
   }
   .avantgardeItem li:nth-child(1)::after {
     content: 'Татлин';
   }
   .avantgardeItem li:nth-child(2) {
-    background: url(../img/Chagall.png) center;
+    background: url(/img/Chagall.png) center;
   }
   .avantgardeItem li:nth-child(2)::after {
     content: 'Шагал';
   }
   .avantgardeItem li:nth-child(3) {
-    background: url(../img/Dali.png) center;
+    background: url(/img/Dali.png) center;
   }
   .avantgardeItem li:nth-child(3)::after {
     content: 'Дали';
   }
   .avantgardeItem li:nth-child(4) {
-    background: url(../img/Prince.png) center;
+    background: url(/img/Prince.png) center;
   }
   .avantgardeItem li:nth-child(4)::after {
     content: 'Принс';
   }
   .avantgardeItem li:nth-child(5) {
-    background: url(../img/Richter.png) center;
+    background: url(/img/Richter.png) center;
   }
   .avantgardeItem li:nth-child(5)::after {
     content: 'Рихтер';
   }
   .futurismItem li:nth-child(1) {
-    background: url(../img/Boccioni.png) center;
+    background: url(/img/Boccioni.png) center;
   }
   .futurismItem li:nth-child(1)::after {
     content: 'Боччини';
   }
   .futurismItem li:nth-child(2) {
-    background: url(../img/Balla.png) center;
+    background: url(/img/Balla.png) center;
   }
   .futurismItem li:nth-child(2)::after {
     content: 'Балла';
   }
   .futurismItem li:nth-child(3) {
-    background: url(../img/Burliuk.png) center;
+    background: url(/img/Burliuk.png) center;
   }
   /* linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) */
   .futurismItem li:nth-child(3)::after {
@@ -2683,16 +2664,14 @@ header {
   .futurismItem li:nth-child(4)::after {
     content: 'Малевич';
   }
-
-  .header__second__item li:hover {
+  /* .header__second__item li:hover {
     cursor: pointer;
     border: 2px solid var(--color-main-light);
-  }
+  } */
   .header__second__item li:active {
     cursor: pointer;
     border: 2px solid var(--color-main-light);
   }
-
   /*------------------------------ dropdown menu ------------------------------ */
   .header__second__link::before,
   .header__second__link::after {
@@ -2722,20 +2701,20 @@ header {
   {
     transform: rotate(45deg);
   }
-  .header__second__link:hover::before,
+  /* .header__second__link:hover::before,
   .header__second__link:hover::after
   {
     background-color: var(--color-hover);
-  }
+  } */
   .header__second__link:active::before,
   .header__second__link:active::after
   {
     background-color: var(--color-main-dark );
   }
-  .header__second__link:hover {
+  /* .header__second__link:hover {
     color: var(--color-main-light);
     transition: color .3s ease-in-out;
-  }
+  } */
   .header__second__link:focus {
     background-color: var(--color-main-dark);
     transition: background-color .3s ease-in-out;
@@ -2770,8 +2749,9 @@ header {
     color: #fff;
     transition: border-color .3s ease-in-out;
     }
-  .header__second__form__input:focus,
-  .header__second__form__input:hover {
+  .header__second__form__input:focus
+  /* ,.header__second__form__input:hover  */
+    {
     border-color: var(--color-hover);
   }
   .header__second__form__input:active,
@@ -2798,7 +2778,7 @@ header {
   /*------------------------------ section gallery -----------------------------*/
   .gallery {
     margin-bottom: 3px;
-    background: url(../img/background_gallery_1700.jpg) bottom/cover no-repeat;
+    background: url(/img/background_gallery_1700.jpg) bottom/cover no-repeat;
     padding-bottom: 79px;
   }
   /*------------------------------ gallery swiper ------------------------------*/
@@ -2852,26 +2832,21 @@ header {
     margin: 0;
     transition: background-color .3s, border-color .3s;
   }
-
   .events__swiper__prev.swiper-button-disabled,
   .events__swiper__next.swiper-button-disabled {
     display: none;
   }
-  
-  .events__swiper__next:hover, .events__swiper__prev:hover,
+  /* .events__swiper__next:hover, .events__swiper__prev:hover, */
   .events__swiper__next:focus, .events__swiper__prev:focus {
     background-color: var(--color-main-light);
     border: 2px solid  var(--color-main-light);
   }
-  
   .events__swiper__next:active, .events__swiper__prev:active {
     border: 2px solid var(--color-main-dark);
   }
-  
   .events__swiper__next {
     right: -27px;
   }
-  
   .events__swiper__prev {
     left: -27px;
   }
@@ -2963,5 +2938,117 @@ header {
     width: 175px;
     margin: -9px 0 0 0;
   }
-
+  @media (hover: hover) {
+    .catalog__tabs__link:hover {
+      color: var(--color-main-dark);
+      text-decoration: underline;
+      /* border-bottom: 1px solid var(--color-main-dark); */
+    }
+    .header__link:hover {
+      color: var(--color-main-light);
+      transition: color .3s  ease-in-out;
+    }
+    .decoratedButton:hover, .header__enter__button:hover {
+      background-color: var(--color-hover);
+    }
+    .hero__btn:hover {
+      border-color: var(--color-main-light);
+    }
+    .custom-checkbox:hover:after, .custom-checkbox:hover {
+      color: var(--color-main);
+      outline-color: var(--color-main);
+    }
+    .gallery__slide:hover::after {
+      opacity: 1;
+    }
+    .gallery__swiper__next:hover, .gallery__swiper__prev:hover {
+      background-color: var(--color-main);
+      border: 2px solid  var(--color-main);
+    }
+    .catalog__accordion__item:hover {
+      border-color: var(--color-main)
+    }
+    .catalog__accordion__item:hover+.catalog__accordion__item {
+      border-top: 1px solid var(--color-main);
+    }
+    .catalog__accordion__title:hover~.catalog__accordion__heading {
+      color: var(--color-main);
+    }
+    .catalog__accordion__title:hover .catalog__circle {
+      background-color: var(--color-main-light);
+      border-color: var(--color-main-light);
+    }
+    .catalog__tab:hover {
+      color: var(--color-main);
+      border-bottom: var(--color-main);
+    }
+    .events__swiper__link:hover {
+      color: var(--color-main-dark);
+    }
+    .projects__marker:hover {
+      background-color: var(--color-main-light)
+    }
+    .projects__marker:hover .projects__popup {
+      opacity: 1;
+    }
+    .projects__link:hover {
+      color: var(--color-main);
+    }
+    .partners__slide:hover img {
+      filter: grayscale(0);
+      opacity: 1;
+      transition: filter .4s, opacity .3s;
+    }
+    .partners__swiper__next:hover, .partners__swiper__prev:hover {
+      background-color: var(--color-main-light);
+      border: 2px solid  var(--color-main-light);
+    }
+    .contacts__input:hover {
+      background-color: #EAEAEA;
+    }
+    .contacts__button:hover {
+      background-color: var(--color-main);
+      color: #FFFFFF;
+    }
+    .messenger-icon:hover {
+      opacity: 0.5;
+    }
+    .social-icon:hover {
+      fill: var(--color-light-grey);  
+    }
+    .header__enter__button:hover {
+      background-color: unset;
+      color: var(--color-hover);
+    }
+    .header__enter__button:hover svg {
+      fill: var(--color-hover);
+    }
+    .dropdownBlock:hover {
+      height: 300px;
+      padding: 40px;
+    }
+    .dropdownBlock:hover>.dropdownMenu {
+      height: 220px;
+    }
+    .header__second__item li:hover {
+      cursor: pointer;
+      border: 2px solid var(--color-main-light);
+    }
+    .header__second__link:hover::before,
+    .header__second__link:hover::after
+    {
+      background-color: var(--color-hover);
+    }
+    .header__second__link:hover {
+      color: var(--color-main-light);
+      transition: color .3s ease-in-out;
+    }
+    .header__second__form__input:hover {
+      border-color: var(--color-hover);
+    }
+    .events__swiper__next:hover, .events__swiper__prev:hover {
+      background-color: var(--color-main-light);
+      border: 2px solid  var(--color-main-light);
+    }
+  }
 }
