@@ -470,13 +470,13 @@ header {
 }
 
 .hero__slide:nth-child(1) {
-  background: url(/img/hero_picture_1.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_1.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(2) {
-  background: url(/img/hero_picture_2.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_2.jpg) bottom/cover no-repeat;
 }
 .hero__slide:nth-child(3) {
-  background: url(/img/hero_picture_3.jpg) bottom/cover no-repeat;
+  background: url(../img/hero_picture_3.jpg) bottom/cover no-repeat;
 }
 
 /*------------------------------ section about ------------------------------*/
@@ -492,7 +492,7 @@ header {
 }
 /*------------------------------ section gallery ------------------------------*/
 .gallery {
-  background: url(/img/background_gallery_320.jpg) bottom/cover no-repeat;
+  background: url(../img/background_gallery_320.jpg) bottom/cover no-repeat;
   padding-bottom: 25px;
 }
 .gallery__title {
@@ -559,7 +559,7 @@ header {
   background-color: transparent;
 }
 .choices__list.is-active {
-  background: url(/img/background_gallery_320.jpg) -17px -178px no-repeat;
+  background: url(../img/background_gallery_320.jpg) -17px -178px no-repeat;
 }
 .choices[data-type*=select-one]::after {
   content: '';
@@ -702,22 +702,22 @@ header {
   /* object-fit: cover; */
 }
 /* .gallery__slide:nth-child(1) {
-  background: url(/img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_1_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(2) {
-  background: url(/img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_2_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(3) {
-  background: url(/img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_3_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(4) {
-  background: url(/img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_4_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(5) {
-  background: url(/img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_5_320.jpg) bottom/contain no-repeat;
 }
 .gallery__slide:nth-child(6) {
-  background: url(/img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
+  background: url(../img/gallery_picture_6_320.jpg) bottom/contain no-repeat;
 } */
 .gallery__slide::before {
   content: '';
@@ -749,7 +749,7 @@ header {
   /* background-size: 100px; */
   background-position: center;
   background-clip: content-box;
-  /* background: url(/img/magnifier.svg) center/auto no-repeat, rgba(0, 0, 0, 0.5); */
+  /* background: url(../img/magnifier.svg) center/auto no-repeat, rgba(0, 0, 0, 0.5); */
   /* -webkit-transition: opacity .5s ease; */
   opacity: 0;
   transition: opacity .3s;
@@ -1265,7 +1265,7 @@ header {
   vertical-align: middle;
   width: 16px;
   height: 16px;
-  background: url('/img/tabs_lable.svg') no-repeat;
+  background: url('../img/tabs_lable.svg') no-repeat;
   margin: 0 1px 0 -1px;
 	transition: background-color .3s;
   cursor: pointer;
@@ -1275,7 +1275,7 @@ header {
 	background-color: var(--color-main-light)
 }
 .projects__marker:active {
-	background: url('/img/tabs_lable_active.svg') no-repeat;
+	background: url('../img/tabs_lable_active.svg') no-repeat;
 }
 /* .projects__marker:hover .projects__popup {
 	opacity: 1;
@@ -1525,7 +1525,7 @@ header {
 }
 .contacts__whatsapp__icon {
   box-sizing: border-box;
-  background: url(/img/whatsapp_icon.svg) no-repeat;
+  background: url(../img/whatsapp_icon.svg) no-repeat;
   background-size: contain;
   height: max(39px, calc(49px - 10*var(--multiplier)));
   width: max(39px, calc(49px - 10*var(--multiplier)));
@@ -1536,7 +1536,7 @@ header {
   transition: opacity .4s;
 }
 .contacts__telegram__icon {
-  background: url(/img/telegram_icon.svg) no-repeat;
+  background: url(../img/telegram_icon.svg) no-repeat;
   background-size: contain;
 }
 
@@ -1630,13 +1630,13 @@ header {
   }
   /* ------------------------------ Hero ------------------------------------ */
   .hero__slide:nth-child(1) {
-    background: url(/img/hero_picture_1_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(/img/hero_picture_2_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_768.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(/img/hero_picture_3_768.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_768.jpg) bottom/cover no-repeat;
   }
   .hero__container {
     flex-wrap: unset;
@@ -1655,14 +1655,14 @@ header {
   }
 /*------------------------------ section gallery ------------------------------*/
   .gallery {
-    background: url(/img/background_gallery_768.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_768.jpg) bottom/cover no-repeat;
     padding-bottom: 79px;
   }
   .gallery__checkbox__container {
     margin-bottom: 39px;
   }
   .choices__list.is-active {
-    background: url(/img/background_gallery_768.jpg) -52px -243px no-repeat;
+    background: url(../img/background_gallery_768.jpg) -52px -243px no-repeat;
   }
   /* .gallery__checkbox__container {
     margin-bottom: 101px;
@@ -1676,22 +1676,22 @@ header {
   }
   
   /* .gallery__slide:nth-child(1) {
-    background: url(/img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_1_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(/img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_2_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(/img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_3_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(/img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_4_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(/img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_5_768.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(/img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_6_768.jpg) bottom/contain no-repeat;
   } */
   .gallery__navigation {
     margin-top: 0;
@@ -1922,13 +1922,13 @@ header {
   }
   /*------------------------------ section hero ------------------------------ */
   .hero__slide:nth-child(1) {
-    background: url(/img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(/img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_1024.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(/img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_1024.jpg) bottom/cover no-repeat;
   }
   .hero {
     /* height: min(700px, calc(668px + 32*var(--multiplier_1700))); */
@@ -1942,7 +1942,7 @@ header {
   .gallery {
     box-sizing: border-box;
     height: 100%;
-    background: url(/img/background_gallery_1024.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_1024.jpg) bottom/cover no-repeat;
     margin-bottom: 0;
   }
   .choices__list.is-active {
@@ -2016,22 +2016,22 @@ header {
     margin-bottom: 11px;
   }
   /* .gallery__slide:nth-child(1) {
-    background: url(/img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_1_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(2) {
-    background: url(/img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_2_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(3) {
-    background: url(/img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_3_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(4) {
-    background: url(/img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_4_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(5) {
-    background: url(/img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_5_1024.jpg) bottom/contain no-repeat;
   }
   .gallery__slide:nth-child(6) {
-    background: url(/img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
+    background: url(../img/gallery_picture_6_1024.jpg) bottom/contain no-repeat;
   } */
   /* .gallery__swiper__next, .gallery__swiper__prev {
     top: 11%;
@@ -2330,13 +2330,13 @@ header {
   }
   /* ----------------------------- hero section ----------------------------- */
   .hero__slide:nth-child(1) {
-    background: url(/img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_1_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(2) {
-    background: url(/img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_2_1700.jpg) bottom/cover no-repeat;
   }
   .hero__slide:nth-child(3) {
-    background: url(/img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/hero_picture_3_1700.jpg) bottom/cover no-repeat;
   }
   /*------------------------------ second heder ------------------------------ */
   .header__second {
@@ -2496,163 +2496,163 @@ header {
     width: 109px;
   }
   .realismItem li:nth-child(1) {
-    background: url(/img/dropdwn_backgnd_1_1.png) center;
+    background: url(../img/dropdwn_backgnd_1_1.png) center;
   }
   .realismItem li:nth-child(1)::after {
     content: 'Тинторетто';
   }
   .realismItem li:nth-child(2) {
-    background: url(/img/dropdwn_backgnd_1_2.png) center;
+    background: url(../img/dropdwn_backgnd_1_2.png) center;
   }
   .realismItem li:nth-child(2)::after {
     content: 'Фридрих';
   }
   .realismItem li:nth-child(3) {
-    background: url(/img/dropdwn_backgnd_1_3.png) center;
+    background: url(../img/dropdwn_backgnd_1_3.png) center;
   }
   .realismItem li:nth-child(3)::after {
     content: 'Леонардо';
   }
   .realismItem li:nth-child(4) {
-    background: url(/img/dropdwn_backgnd_1_4.png) center;
+    background: url(../img/dropdwn_backgnd_1_4.png) center;
   }
   .realismItem li:nth-child(4)::after {
     content: 'Верроккьо';
   }
   .realismItem li:nth-child(5) {
-    background: url(/img/Repin.png) center;
+    background: url(../img/Repin.png) center;
   }
   .realismItem li:nth-child(5)::after {
     content: 'Илья Репин';
   }
   .realismItem li:nth-child(6) {
-    background: url(/img/Eakins.png) center;
+    background: url(../img/Eakins.png) center;
   }
   .realismItem li:nth-child(6)::after {
     content: 'Томас Икинс';
   }
   .realismItem li:nth-child(7) {
-    background: url(/img/Courbet.png) center;
+    background: url(../img/Courbet.png) center;
   }
   .realismItem li:nth-child(7)::after {
     content: 'Гюстав Курбе';
   }
   .realismItem li:nth-child(8) {
-    background: url(/img/Hopper.png) center;
+    background: url(../img/Hopper.png) center;
   }
   .realismItem li:nth-child(8)::after {
     content: 'Эдвард Хоппер';
   }
   .impressionismItem li:nth-child(1) {
-    background: url(/img/Sisley.png) center;
+    background: url(../img/Sisley.png) center;
   }
   .impressionismItem li:nth-child(1)::after {
     content: 'Альфред Сислей'
   }
   .impressionismItem li:nth-child(2) {
-    background: url(/img/Pissarro.png) center;
+    background: url(../img/Pissarro.png) center;
   }
   .impressionismItem li:nth-child(2)::after {
     content: 'Камиль Писсарро'
   }
   .impressionismItem li:nth-child(3) {
-    background: url(/img/Monet.png) center;
+    background: url(../img/Monet.png) center;
   }
   .impressionismItem li:nth-child(3)::after {
     content: 'Клод Моне'
   }
   .impressionismItem li:nth-child(4) {
-    background: url(/img/Korovin.png) center;
+    background: url(../img/Korovin.png) center;
   }
   .impressionismItem li:nth-child(4)::after {
     content: 'Константин Коровин'
   }
   .impressionismItem li:nth-child(5) {
-    background: url(/img/Renoir.png) center;
+    background: url(../img/Renoir.png) center;
   }
   .impressionismItem li:nth-child(5)::after {
     content: 'Пьер Огюст Ренуар'
   }
   .impressionismItem li:nth-child(6) {
-    background: url(/img/Degas.png) center;
+    background: url(../img/Degas.png) center;
   }
   .impressionismItem li:nth-child(6)::after {
     content: 'Эдгар Дега'
   }
   .impressionismItem li:nth-child(7) {
-    background: url(/img/Manet.png) center;
+    background: url(../img/Manet.png) center;
   }
   .impressionismItem li:nth-child(7)::after {
     content: 'Эдуард Мане'
   }
   .postimpressionismItem li:nth-child(1) {
-    background: url(/img/Van_Gogh.png) center;
+    background: url(../img/Van_Gogh.png) center;
   }
   .postimpressionismItem li:nth-child(1)::after {
     content: 'Ван Гог'
   }
   .postimpressionismItem li:nth-child(2) {
-    background: url(/img/Gauguin.png) center;
+    background: url(../img/Gauguin.png) center;
   }
   .postimpressionismItem li:nth-child(2)::after {
     content: 'Поль Гоген'
   }
   .postimpressionismItem li:nth-child(3) {
-    background: url(/img/Munch.png) center;
+    background: url(../img/Munch.png) center;
   }
   .postimpressionismItem li:nth-child(3)::after {
     content: 'Эдвард Мунк'
   }
   .postimpressionismItem li:nth-child(4) {
-    background: url(/img/Cezanne.png) center;
+    background: url(../img/Cezanne.png) center;
   }
   .postimpressionismItem li:nth-child(4)::after {
     content: 'Поль Сезанн'
   }
   .avantgardeItem li:nth-child(1) {
-    background: url(/img/Tatlin.png) center;
+    background: url(../img/Tatlin.png) center;
   }
   .avantgardeItem li:nth-child(1)::after {
     content: 'Татлин';
   }
   .avantgardeItem li:nth-child(2) {
-    background: url(/img/Chagall.png) center;
+    background: url(../img/Chagall.png) center;
   }
   .avantgardeItem li:nth-child(2)::after {
     content: 'Шагал';
   }
   .avantgardeItem li:nth-child(3) {
-    background: url(/img/Dali.png) center;
+    background: url(../img/Dali.png) center;
   }
   .avantgardeItem li:nth-child(3)::after {
     content: 'Дали';
   }
   .avantgardeItem li:nth-child(4) {
-    background: url(/img/Prince.png) center;
+    background: url(../img/Prince.png) center;
   }
   .avantgardeItem li:nth-child(4)::after {
     content: 'Принс';
   }
   .avantgardeItem li:nth-child(5) {
-    background: url(/img/Richter.png) center;
+    background: url(../img/Richter.png) center;
   }
   .avantgardeItem li:nth-child(5)::after {
     content: 'Рихтер';
   }
   .futurismItem li:nth-child(1) {
-    background: url(/img/Boccioni.png) center;
+    background: url(../img/Boccioni.png) center;
   }
   .futurismItem li:nth-child(1)::after {
     content: 'Боччини';
   }
   .futurismItem li:nth-child(2) {
-    background: url(/img/Balla.png) center;
+    background: url(../img/Balla.png) center;
   }
   .futurismItem li:nth-child(2)::after {
     content: 'Балла';
   }
   .futurismItem li:nth-child(3) {
-    background: url(/img/Burliuk.png) center;
+    background: url(../img/Burliuk.png) center;
   }
   /* linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%) */
   .futurismItem li:nth-child(3)::after {
@@ -2778,7 +2778,7 @@ header {
   /*------------------------------ section gallery -----------------------------*/
   .gallery {
     margin-bottom: 3px;
-    background: url(/img/background_gallery_1700.jpg) bottom/cover no-repeat;
+    background: url(../img/background_gallery_1700.jpg) bottom/cover no-repeat;
     padding-bottom: 79px;
   }
   /*------------------------------ gallery swiper ------------------------------*/
