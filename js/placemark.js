@@ -8,7 +8,7 @@ ymaps.ready(init);
         
       var myPlacemark2 = new ymaps.Placemark([55.7608, 37.5908], {}, {
             iconLayout: 'default#image',
-            iconImageHref: '/img/mark.svg',
+            iconImageHref: '../img/mark.svg',
             iconImageSize: [20, 20],
             iconImageOffset: [0, 0]
         });
