@@ -468,7 +468,8 @@ header {
   text-align: center;
   color: #FFFFFF;
   padding: 0 0 0 2px;
-  margin-right: max(1px, calc(378*var(--multiplier)));
+  /* margin-right: max(1px, calc(378*var(--multiplier))); */
+  margin: 0 auto;
   transition: border-color .3s, background-color .3s;
 }
 /* .hero__btn:hover {
@@ -1694,6 +1695,9 @@ header {
     background-color: var(--color-main-light);
     border: 2px solid  var(--color-main-light);
   }
+  .partners__swiper__next:active, .partners__swiper__prev:active {
+    border: 2px solid var(--color-main-dark);
+  }
   .contacts__input:hover {
     background-color: #EAEAEA;
   }
@@ -1809,6 +1813,9 @@ header {
   }
   .hero__text {
     letter-spacing: .9px;
+  }
+  .hero__btn {
+    margin-right: max(1px, calc(378*var(--multiplier)));
   }
 /*------------------------------ section about ------------------------------*/
   .about__title {
