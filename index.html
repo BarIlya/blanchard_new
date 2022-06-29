@@ -177,7 +177,8 @@
       <div class="hero__container">
         <h2 class="hero__title">Прикоснитесь к&nbsp;прекрасному</h2>
         <p class="hero__text">Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых предложений.</p>
-        <button class="hero__btn decoratedButton">Подписаться на рассылку</button>
+        <button class="hero__btn">Подписаться на рассылку</button>
+        <!-- decoratedButton <button href="#contacts" class="hero__btn js-scroll-link">Подписаться на рассылку</button> -->
       </div>
       <div class="hero__swiper swiper">
         <div class="swiper-wrapper">
@@ -234,7 +235,7 @@
         <div class="gallery__swiper__container">
           <div class="swiper gallery__swiper">
             <div class="swiper-wrapper">
-              <div class="gallery__slide swiper-slide" data-path="gallery-one">
+              <button class="gallery__slide swiper-slide" data-path="gallery-one">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_1_1700.jpg"
@@ -256,8 +257,8 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
-              <div class="gallery__slide swiper-slide" data-path="gallery-two">
+              </button>
+              <button class="gallery__slide swiper-slide" data-path="gallery-two">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_2_1700.jpg"
@@ -279,8 +280,8 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
-              <div class="gallery__slide swiper-slide" data-path="gallery-three">
+              </button>
+              <button class="gallery__slide swiper-slide" data-path="gallery-three">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_3_1700.jpg"
@@ -302,8 +303,8 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
-              <div class="gallery__slide swiper-slide" data-path="gallery-four">
+              </button>
+              <button class="gallery__slide swiper-slide" data-path="gallery-four">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_4_1700.jpg"
@@ -325,8 +326,8 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
-              <div class="gallery__slide swiper-slide" data-path="gallery-five">
+              </button>
+              <button class="gallery__slide swiper-slide" data-path="gallery-five">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_5_1700.jpg"
@@ -348,8 +349,8 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
-              <div class="gallery__slide swiper-slide" data-path="gallery-six">
+              </button>
+              <button class="gallery__slide swiper-slide" data-path="gallery-six">
                 <picture class="gallery__slide__picture popup__link">
                   <source 
                    srcset= "img/gallery_picture_6_1700.jpg"
@@ -371,7 +372,7 @@
                     alt="картинка из галереи"
                   />
                 </picture>
-              </div>
+              </button>
             </div>
             <div class="gallery__navigation">
               <div class="swiper-button-prev gallery__swiper__prev"></div>
@@ -528,7 +529,7 @@
               <button aria-label="Бьяджо д’Антонио Туччи" data-tab="tab_09" class="catalog__tab painters__scroll-link">Бьяджо д’Антонио Туччи</button><br>
               <button aria-label="Веккьетта" data-tab="tab_10" class="catalog__tab painters__scroll-link">Веккьетта</button><br>
               <button aria-label="Андреа Верроккьо" data-tab="tab_11" class="catalog__tab painters__scroll-link">Андреа Верроккьо</button><br>
-              <button aria-label="Доменико Гирландайо" data-tab="tab_12" class="catalog__tab painters__scroll-link active_tab">Доменико Гирландайо</button><br>
+              <button aria-label="Доменико Гирландайо" data-tab="tab_12" class="catalog__tab painters__scroll-link active_link">Доменико Гирландайо</button><br>
               <button aria-label="Беноццо Гоццоли" data-tab="tab_13" class="catalog__tab painters__scroll-link">Беноццо Гоццоли</button><br>
               <button aria-label="Граначчи, Франческо" data-tab="tab_14" class="catalog__tab painters__scroll-link">Граначчи, Франческо</button><br>
               <button aria-label="Грегорио ди Чекко" data-tab="tab_15" class="catalog__tab painters__scroll-link">Грегорио ди Чекко</button><br>
@@ -558,7 +559,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 1500 по 1599 гг.</p>
@@ -574,7 +575,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 1600 по 1699 гг.</p>
@@ -590,7 +591,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 1700 по 1799 гг.</p>
@@ -606,7 +607,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 1800 по 1899 гг.</p>
@@ -622,7 +623,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 1900 по 1999 гг.</p>
@@ -638,7 +639,7 @@
                 <div class="rectangle"></div>
                 <h3 class="accordionTitle">Здесь пока пусто</h3>
                 <p class="accordionText">А в галерее вы всегда можете найти что-то интересное для себя</p>
-                <div><a aria-label="вход в галерею" href="" class="catalog__tabs__link">В&nbsp;галерею</a></div>
+                <div><a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link">В&nbsp;галерею</a></div>
               </div>
             </div>
             <p class="catalog__accordion__heading">C 2000 г.</p>
@@ -660,7 +661,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_02" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -677,7 +678,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_03" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -694,7 +695,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_04" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -711,7 +712,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_05" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -728,7 +729,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_06" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -745,7 +746,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_07" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -762,7 +763,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_08" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -779,7 +780,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_09" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -796,7 +797,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_10" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -813,31 +814,31 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_11" class="catalog__block painters__scroll-link">
 
             <div class="catalog__picture__block">
               <picture class="catalog__tabs__picture">
                 <source 
-                  srcset= "img/Domenico_Ghirlandaio_1920.jpg"
+                  srcset= "img/Andrea_del_Verrocchio_1920.jpg"
                   media=  "(min-width: 1024px)"
                 />
                 <source 
-                  srcset= "img/Domenico_Ghirlandaio_768.jpg"
+                  srcset= "img/Andrea_del_Verrocchio_768.jpg"
                 />
                 <img class="catalog__painter__image"
-                  src="img/Domenico_Ghirlandaio_320.jpg"
-                  alt="Domenico_Ghirlandaio"
+                  src="img/Andrea_del_Verrocchio_320.jpg"
+                  alt="Andrea_del_Verrocchio"
                 />
               </picture>
-              <h3 class="catalog__tabs__title">Доменико Гирландайо</h3>
-              <h4 class="catalog__tabs__signature">2 июня 1448 — 11 января 1494.</h4>
+              <h3 class="catalog__tabs__title">Андреа Верроккьо</h3>
+              <h4 class="catalog__tabs__signature">1435 — 1488.</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a aria-label="вход в галерею" href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a aria-label="вход в галерею" href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
-          <div id="tab_12" class="catalog__block painters__scroll-link active_link">
+          <div id="tab_12" class="catalog__block painters__scroll-link active_tab">
             <div class="catalog__picture__block">
               <picture class="catalog__tabs__picture">
                 <source 
@@ -872,7 +873,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_14" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -889,7 +890,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_15" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -906,7 +907,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_16" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -923,7 +924,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_17" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -940,7 +941,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_18" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -957,7 +958,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_19" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -974,7 +975,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_20" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -991,7 +992,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_21" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -1008,7 +1009,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_22" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -1025,7 +1026,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_23" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -1042,7 +1043,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
           <div id="tab_24" class="catalog__block painters__scroll-link">
             <div class="catalog__picture__block">
@@ -1059,7 +1060,7 @@
               <h4 class="catalog__tabs__signature">ничего</h4>
             </div>
             <p class="catalog__tabs__text">Пока ничего... Зато мы точно знаем, что в галерее есть на что посмотреть!</p>
-            <a href="" class="catalog__tabs__link"><br>В&nbsp;галерею</a>
+            <a href="#gallery" class="catalog__tabs__link js-scroll-link"><br>В&nbsp;галерею</a>
           </div>
         </div>
       </div>  
@@ -1336,7 +1337,8 @@
             <!-- value="tel" -->
           </label>
         </div>
-        <button aria-label="Кнопка заказать звонок" class="contacts__button decoratedButton">Заказать <span class="contacts__button__768">обратный звонок</span></button>
+        <button aria-label="Кнопка заказать звонок" class="contacts__button">Заказать <span class="contacts__button__768">обратный звонок</span></button>
+        <!-- decoratedButton -->
       </form>
       <div class="contacts__connect">
         <p class="contacts__messengers__title">Связаться в один клик</p>
