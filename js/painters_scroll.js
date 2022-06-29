@@ -13,6 +13,18 @@
 //     });
 // });
 
+// document.querySelectorAll('.catalog__painter-date-content-item').forEach(function (tabsBTN) {
+//     tabsBTN.addEventListener('click', function (event) {
+//       const path = event.currentTarget.dataset.path
+//       console.log(path);
+
+//       document.querySelectorAll('.catalog__painter-description').forEach(function (tabContent) {
+//         tabContent.classList.remove('catalog__painter-description_active')
+//       })
+//       document.querySelector(`[data-target="${path}"]`).classList.add('catalog__painter-description_active')
+//     })
+//   })
+
 const tabsBtn = document.querySelectorAll(".painters__scroll-link");
 // console.log('tabsBtn:', tabsBtn);
 tabsBtn.forEach(function(item) {
@@ -31,8 +43,8 @@ tabsBtn.forEach(function(item) {
             // console.log('data-tab:', tabAttribute);
             // console.log('scrollTarget:', scrollTarget);
 
-            scrollTarget.classList.add('active_link');
-            currentBtn.classList.add('active_tab');
+            scrollTarget.classList.add('active_tab');
+            currentBtn.classList.add('active_link');
 
             // console.log('screenWidth:', window.screen.width);
             // console.log('screenWidth_2:', document.documentElement.clientWidth);
