@@ -746,7 +746,7 @@ header {
   transition: border-color .3s;
   z-index: 1;
  }
- .gallery__slide:focus::before {
+ .gallery__slide:focus-visible::before {
   border-color: var(--color-main);
  }
  .gallery__slide:active::before {
